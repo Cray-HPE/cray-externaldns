@@ -25,7 +25,7 @@ sharedIPServices:
 kubectl:
   image:
     repository: dtr.dev.cray.com/loftsman/loftsman
-    tag: latest
+    tag: 0.5.1
     pullPolicy: IfNotPresent
 
 # coredns is a subchart for us
