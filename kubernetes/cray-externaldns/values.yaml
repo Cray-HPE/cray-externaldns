@@ -159,3 +159,5 @@ crayService:
       enabled: true
       accessMode: "ReadWriteOnce"
       storage: 1Gi
+
+sealedSecrets: []
