@@ -7,6 +7,7 @@ keywords:
   - externaldns
 maintainers:
   - name: bo-quan
+home: https://github.com/Cray-HPE/cray-externaldns
 icon: https://bitnami.com/assets/stacks/external-dns/img/external-dns-stack-220x234.png
 sources:
   - https://github.com/kubernetes-sigs/external-dns

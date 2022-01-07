@@ -21,7 +21,6 @@ external-dns:
   policy: sync
   istioIngressGateways:
     - "istio-system/istio-ingressgateway"
-  provider: "coredns"
   provider: "pdns"
   pdns:
     apiUrl: http://cray-dns-powerdns-api
