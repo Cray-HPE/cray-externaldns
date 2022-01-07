@@ -5,6 +5,10 @@ description: Support for DNS outside kubernets LoadBalancers and Annotation-base
 keywords:
   - dns
   - externaldns
+dependencies:
+  - name: external-dns
+    repository: https://charts.bitnami.com/bitnami
+    version: 6.1.0
 maintainers:
   - name: bo-quan
 home: https://github.com/Cray-HPE/cray-externaldns
