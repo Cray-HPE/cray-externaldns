@@ -1,13 +1,21 @@
-apiVersion: v1
-appVersion: 1.5.2
+apiVersion: v2
+version: 1.4.0
+name: cray-externaldns
 description: Support for DNS outside kubernets LoadBalancers and Annotation-based
 keywords:
-- coredns
-- dns
-- externaldns
-icon: https://raw.githubusercontent.com/coredns/logo/master/Icon/CoreDNS_Colour_Icon.svg
+  - dns
+  - externaldns
+dependencies:
+  - name: external-dns
+    repository: https://charts.bitnami.com/bitnami
+    version: 6.1.0
+maintainers:
+  - name: bo-quan
+home: https://github.com/Cray-HPE/cray-externaldns
+icon: https://bitnami.com/assets/stacks/external-dns/img/external-dns-stack-220x234.png
 sources:
-- https://github.com/coredns/coredns
-- https://github.com/kubernetes-incubator/external-dns
-name: cray-externaldns
-version: 1.0.0 
+  - https://github.com/kubernetes-sigs/external-dns
+  - https://github.com/Cray-HPE/cray-externaldns
+appVersion: 0.10.2
+annotations:
+  artifacthub.io/license: MIT
