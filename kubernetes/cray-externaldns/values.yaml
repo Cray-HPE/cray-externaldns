@@ -5,7 +5,7 @@
 external-dns:
   image:
     registry: artifactory.algol60.net
-    repository: csm-docker/stable/docker.io/bitnami/external-dns/0/debian-10
+    repository: csm-docker/stable/docker.io/bitnami/external-dns
     tag: 0.10.2-debian-10-r23
   podAnnotations:
     # Disable istio sidecar since etcd doesn't use it.
