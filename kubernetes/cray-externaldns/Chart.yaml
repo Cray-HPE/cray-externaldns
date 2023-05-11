@@ -1,7 +1,7 @@
 #
 # MIT License
 #
-# (C) Copyright 2021-2022 Hewlett Packard Enterprise Development LP
+# (C) Copyright 2021-2023 Hewlett Packard Enterprise Development LP
 #
 # Permission is hereby granted, free of charge, to any person obtaining a
 # copy of this software and associated documentation files (the "Software"),
@@ -22,7 +22,7 @@
 # OTHER DEALINGS IN THE SOFTWARE.
 #
 apiVersion: v2
-version: 1.4.1
+version: 1.5.0
 name: cray-externaldns
 description: Support for DNS outside kubernets LoadBalancers and Annotation-based
 keywords:
@@ -31,7 +31,7 @@ keywords:
 dependencies:
   - name: external-dns
     repository: https://charts.bitnami.com/bitnami
-    version: 6.1.0
+    version: 6.20.4
 maintainers:
   - name: bo-quan
 home: https://github.com/Cray-HPE/cray-externaldns
@@ -39,6 +39,6 @@ icon: https://bitnami.com/assets/stacks/external-dns/img/external-dns-stack-220x
 sources:
   - https://github.com/kubernetes-sigs/external-dns
   - https://github.com/Cray-HPE/cray-externaldns
-appVersion: 0.10.2
+appVersion: 0.13.4
 annotations:
   artifacthub.io/license: MIT
