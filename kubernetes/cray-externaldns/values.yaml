@@ -70,3 +70,7 @@ external-dns:
     timeoutSeconds: 7
 
 sealedSecrets: []
+
+global: 
+  security: 
+    allowInsecureImages: true
