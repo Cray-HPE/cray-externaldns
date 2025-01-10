@@ -31,7 +31,7 @@ keywords:
 dependencies:
   - name: external-dns
     repository: https://charts.bitnami.com/bitnami
-    version: 6.20.4
+    version: 8.7.0
 maintainers:
   - name: bo-quan
 home: https://github.com/Cray-HPE/cray-externaldns
