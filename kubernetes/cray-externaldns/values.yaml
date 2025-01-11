@@ -71,6 +71,6 @@ external-dns:
 
 sealedSecrets: []
 
-global: 
-  security: 
+global:
+  security:
     allowInsecureImages: true
