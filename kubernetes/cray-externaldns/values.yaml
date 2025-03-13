@@ -32,7 +32,7 @@ external-dns:
   rbac:
     # If true, create & use RBAC resources
     create: true
-    pspEnabled: true
+    pspEnabled: false
   sources:
     - "service"
     - "istio-gateway"
