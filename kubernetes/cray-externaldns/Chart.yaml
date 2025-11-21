@@ -22,9 +22,9 @@
 # OTHER DEALINGS IN THE SOFTWARE.
 #
 apiVersion: v2
-version: 1.7.0
+version: 1.7.1
 name: cray-externaldns
-description: Support for DNS outside kubernets LoadBalancers and Annotation-based
+description: Synchronizes exposed Kubernetes services & ingresses with public DNS servers
 keywords:
   - dns
   - externaldns
@@ -39,6 +39,6 @@ icon: https://bitnami.com/assets/stacks/external-dns/img/external-dns-stack-220x
 sources:
   - https://github.com/kubernetes-sigs/external-dns
   - https://github.com/Cray-HPE/cray-externaldns
-appVersion: 0.17.0
+appVersion: v0.17.0
 annotations:
   artifacthub.io/license: MIT
