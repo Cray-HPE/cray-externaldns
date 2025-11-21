@@ -7,6 +7,7 @@ jobs:
   lint-test-scan:
     uses: Cray-HPE/.github/.github/workflows/charts-lint-test-scan.yml@main
     with:
+      target-branch: ${{ github.event.pull_request.base.ref || 'master' }}
       ct-config: |
         chart-dirs:
           - kubernetes
