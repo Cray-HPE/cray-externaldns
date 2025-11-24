@@ -1,7 +1,7 @@
 name: Cron Lint, test, and scan Helm charts
 on:
   schedule:
-    - cron: "57 22 * * *"
+    - cron: "57 22 * * 6"  # At 22:57 on Saturdays
   workflow_dispatch:
 jobs:
   lint-test-scan:
@@ -15,3 +15,6 @@ jobs:
       scan-image-snyk-args: "--severity-threshold=high"
     secrets:
       snyk-token: ${{ secrets.SNYK_TOKEN }}
+      github-token: ${{ secrets.GITHUB_TOKEN }}
+      artifactory-username: ${{ secrets.ARTIFACTORY_ALGOL60_READONLY_USERNAME }}
+      artifactory-password: ${{ secrets.ARTIFACTORY_ALGOL60_READONLY_TOKEN }}
